@@ -1,0 +1,23 @@
+{
+  "manifest_version": 2,
+
+  "name": "NeoGAF Quote Search",
+  "author": "Dustin Martin",
+  "description": "Adds a button to quickly search for posts which quoted you",
+  "version": "1.0",
+
+  "icons": {
+    "16": "16.png",
+    "32": "32.png",
+    "48": "48.png",
+    "64": "64.png",
+    "128": "128.png"
+  },
+
+  "content_scripts": [
+  {
+    "matches": ["*://*.neogaf.com/*"],
+    "js": ["addSearchButton.js"]
+  }
+  ]
+}
