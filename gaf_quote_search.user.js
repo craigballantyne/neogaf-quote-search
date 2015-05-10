@@ -5,7 +5,6 @@
 // @description  search for yr posts
 // @author       dustin martin
 // @match        http*://*.neogaf.com/*
-// @match        https*://*.neogaf.com/*
 // @grant        none
 // ==/UserScript==
 
